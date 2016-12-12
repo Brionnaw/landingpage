@@ -3,3 +3,7 @@ body {
   background-repeat: no-repeat;
   background-position:top;
 }
+
+footer {
+    display: block;
+}
