@@ -1,0 +1,30 @@
+/*
+Theme Name: MNKNJY
+Theme URI: http://wordpress.org/themes/mnknjy
+Author: Brionna White
+Author URI: www.brionna.github.io
+Description: This 2016 theme is a launching theme for MNKNJY fashion release.
+Version: 1.0
+Tags: fashion, mnknjy, release, 2017, clothing line, loungewear
+Text Domain: MNKNJY
+*/
+
+
+
+
+body {
+  background-image: url("images/sample_43.png");
+  background-repeat: no-repeat;
+  background-position:top;
+}
+
+footer {
+    display: block;
+}
+
+.text {
+  font-size: 25px;
+  font-family:"Century Gothic";
+  color:#c0bbb9;
+  padding:250px 20px 0px 240px;
+}

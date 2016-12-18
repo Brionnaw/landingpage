@@ -7,13 +7,14 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <link href="main.css" rel="stylesheet"/>
+    <link href="style.php" rel="stylesheet"/>
+    <link rel="stylesheet" href="<?php bloginfo('stylesheet_url')?>" type="text/css">
   </head>
   <body>
     <div class="col-xs-12"></div>
 
     <!-- subscription form-->
-    <div class="col-xs-12"> <p class="text" style="padding:250px 20px 0px 240px">  Organic | Sustainable | Leisurewear </p></div>
+    <div class="col-xs-12"> <p class="text">  Organic | Sustainable | Leisurewear </p></div>
     <div class="col-xs-12" style="padding:20px 40px 0px 80px">
 
         <p style="font-size:45px"><strong>Coming Soon 2017</strong></p>
