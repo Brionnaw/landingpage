@@ -10,8 +10,6 @@ Text Domain: MNKNJY
 */
 
 
-
-
 body {
   background-image: url("images/sample_43.png");
   background-repeat: no-repeat;
@@ -27,4 +25,74 @@ footer {
   font-family:"Century Gothic";
   color:#c0bbb9;
   padding:250px 20px 0px 240px;
+}
+
+.subtext {
+ padding:20px 40px 0px 80px;
+ font-size: 40px;
+}
+
+.form {
+  padding: 20px 0px 0px 90px;
+}
+/*For tablets*/
+@media only screen and (min-width: 690px), and (max-width: 995px){
+
+  body {
+    background-image: url("images/sample_43.png");
+    background-size: 750px 700px;
+    background-repeat: no-repeat;
+    background-position:center;
+  }
+
+  .text {
+    font-size: 30px;
+    font-family:"Century Gothic";
+    color:#c0bbb9;
+    padding:350px 70px 0px 20px;
+  }
+  .subtext {
+    padding: 0px 0px 0px 10px;
+    font-size: 20px;
+    zoom:200%;
+  }
+  .form{
+    zoom:110%;
+    padding: 140px 40px 0px 40px;
+  }
+}
+
+
+
+/* For mobile phones: */
+@media only screen and (max-width: 690px) {
+  [class*="col-xs"] {
+    width: 100%;
+  }
+  body {
+    background-image: url("images/sample_43.png");
+    background-size: 330px 250px;
+    background-repeat: no-repeat;
+    background-position:top;
+  }
+  .text {
+    font-size: 13px;
+    font-family:"Century Gothic";
+    color:#c0bbb9;
+    padding:100px 40px 0px 25px;
+  }
+
+  .form{
+    zoom:50%;
+    padding: 40px 40px 0px 20px;
+  }
+  .subtext {
+   padding:80px 40px 0px 20px;
+   font-size: 45px;
+  }
+  .footer {
+    font-size: 11px;
+    text-align: center;
+    padding-top: 100px;
+  }
 }
